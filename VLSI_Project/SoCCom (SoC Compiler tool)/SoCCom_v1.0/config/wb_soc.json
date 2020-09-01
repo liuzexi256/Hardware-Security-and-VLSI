@@ -1,0 +1,106 @@
+{
+  "B_1":
+    {
+      "filename": "wb_bus_b3.v",
+      "master/slave" : null,
+      "peripherals": ["EP_0","EP_1","EP_2","EP_3","EP_4","EP_5","EP_6", "EP_7", "EP_8", "EP_9", "EP_10"],
+      "bus_type" : "Wishbone",
+      "is_bus": true
+    },
+  "EP_O":
+    {
+      "filename": "aes_top.v",
+      "master/slave" : "SLAVE",
+      "peripherals": ["B_1"],
+      "bus_type" : "Wishbone",
+      "is_bus": false
+    },
+  "EP_1":
+    {
+      "filename": "wbram.v",
+      "master/slave" : "SLAVE",
+      "peripherals": ["B_1"],
+      "bus_type" : "Wishbone",
+      "is_bus": false
+    },
+  "EP_2":
+    {
+      "filename": "picorv32_top.v",
+      "master/slave" : "MASTER",
+      "peripherals": ["B_1"],
+      "bus_type" : "Wishbone",
+      "is_bus": false
+    },
+  "EP_3":
+      {
+        "filename": "des3_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+    "EP_4":
+      {
+        "filename": "sha256_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+    "EP_5":
+      {
+        "filename": "fir_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+   "EP_6":
+      {
+        "filename": "idft_top_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+    "EP_7":
+      {
+        "filename": "dft_top_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+    "EP_8":
+      {
+        "filename": "md5_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+
+    "EP_9":
+      {
+        "filename": "iir_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+
+    "EP_10":
+      {
+        "filename": "uart_top.v",
+        "master/slave" : "SLAVE",
+        "peripherals": ["B_1"],
+        "bus_type" : "Wishbone",
+        "is_bus": false
+      },
+  "base_config":
+    {
+      "fabric": "Wishbone",
+      "axi4lite_bus": false,
+      "lisnoc": false
+    }
+}

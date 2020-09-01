@@ -1,0 +1,84 @@
+{
+  "EP_0": {
+    "filename": "clkgen.v",
+    "master/slave": null,
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_1": {
+    "filename": "ram_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_2": {
+    "filename": "uart_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_3": {
+    "filename": "picorv32_top_axi4lite.sv",
+    "master/slave": "MASTER",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_4": {
+    "filename": "aes_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_5": {
+    "filename": "des3_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_6": {
+    "filename": "sha256_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_7": {
+    "filename": "iir_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_8": {
+    "filename": "fir_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+  "EP_9": {
+    "filename": "dft_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+
+  "EP_10": {
+    "filename": "idft_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+
+  "EP_11": {
+    "filename": "md5_top_axi4lite.sv",
+    "master/slave": "SLAVE",
+    "bus_type": "AXI",
+    "is_bus": false
+  },
+
+  "base_config":
+    {
+      "fabric": "AXI",
+      "wishbone_bus": false,
+      "lisnoc": false
+    }
+}
+

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../demo_axi_v2.srcs/sources_1/imports/mor1kx/rtl/verilog" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart" --include "../../../../demo_axi_v2.srcs/sources_1/imports/top" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/top" --include "../../../../demo_axi_v2.srcs/sources_1/imports/includes" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/rsa/src" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/idft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/dft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/gps" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/fir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/md5" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/sha256" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/rsa/pem" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/iir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/des3" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/iir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/fir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/idft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/dft" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/round.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/table.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/aes_128.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

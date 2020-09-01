@@ -1,0 +1,90 @@
+//This is a specification file for users to define the input parameters of Wishbone wrapper generation tool
+//Users define the lower cases and numbers, DO NOT modify any variables or text indicated by capital letters
+
+//-----------------------------------I/O SPECIFICATION---------------------------------------------------------
+//IO signals' format is "SIGNAL_TYPE bit_width signal_name", if this signal does not exist, set the bit width to be 0
+
+CORE_NAME des3
+
+//Input signals
+
+CLK 1 clk
+RESET 0
+START 1 start
+DECRYPT 1 decrypt
+NEXT_MESSAGE 0
+KEY_1 56 key1
+KEY_2 56 key2
+KEY_3 56 key3
+DATA_IN 64 desIn
+
+//Output signals
+
+READY_FOR_INPUT 0
+READY_FOR_RESULTS 1 out_valid
+DATA_OUT 64 desOut
+
+//-----------------------------------ADDRESS CONTROL---------------------------------------------------------
+//Currently, only support address variations in wb_adr_i[6:2] (from 0 to 31)
+//"0" represents this control does not exist, be sure to use "5'd0" to indicate the first case you want!
+
+//Write side
+
+WADDR_START 5'd00 TO 5'd00
+WADDR_DATA 5'd02 TO 5'd03
+WADDR_KEY 5'd04 TO 5'd09
+WADDR_DECRYPT 5'd01 TO 5'd01
+
+//Read side
+
+RADDR_READY 0
+RADDR_KEY 5'd04 TO 5'd09
+RADDR_DATA 5'd02 TO 5'd03
+RADDR_VALID 5'd10 TO 5'd10
+RADDR_RESULT 5'd11 TO 5'd12
+
+//--------------------------------------EXTRA FUNCTIONS---------------------------------------------------------------
+//Specify additional control by defining the address and the RTL codes
+
+//Format is "CONTROL_TYPE bit_width control_name number TO number {codes}"
+//Write side
+
+WADDR_USER_1 0
+WADDR_USER_2 0
+
+//Read side
+
+RADDR_USER_1 0
+RADDR_USER_2 0
+
+//Define any special connections need to be modied in the instantiation, set IS_MODIFY to 1 if you want
+//Format is "IS_MODIFY 1 your_signal your_code"
+
+IS_MODIFY 0
+
+//Any other large RTL functions need to be added, provide the codes and which line is starting to add
+LINE 34
+CONTENTS BEGIN 
+
+// The following generate logic is to used to remove the parity bits from the key
+// This was performed in the C test code that loaded vectors
+genvar i;
+generate if (remove_parity_bits == 1) begin
+    for (i = 0; i < 4; i = i + 1) begin
+
+        assign key_1[34 + i*7:28 + i*7] = key[0][i*8+1 + 6:i*8+1];
+        assign key_1[ 6 + i*7:     i*7] = key[1][i*8+1 + 6:i*8+1];
+        assign key_2[34 + i*7:28 + i*7] = key[2][i*8+1 + 6:i*8+1];
+        assign key_2[ 6 + i*7:     i*7] = key[3][i*8+1 + 6:i*8+1];
+        assign key_3[34 + i*7:28 + i*7] = key[4][i*8+1 + 6:i*8+1];
+        assign key_3[ 6 + i*7:     i*7] = key[5][i*8+1 + 6:i*8+1];
+
+    end // generate for (i = 0; i < 4; i = i + 1)
+end else begin
+    assign key_1    = {key[0][27:0], key[1][27:0]};
+    assign key_2    = {key[2][27:0], key[3][27:0]};
+    assign key_3    = {key[4][27:0], key[5][27:0]};
+end // end else
+endgenerate
+
+END

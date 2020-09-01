@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../demo_axi_v2.srcs/sources_1/imports/mor1kx/rtl/verilog" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart" --include "../../../../demo_axi_v2.srcs/sources_1/imports/top" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/top" --include "../../../../demo_axi_v2.srcs/sources_1/imports/includes" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/rsa/src" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/idft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/dft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/gps" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/fir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/md5" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/sha256" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/rsa/pem" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/iir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/des3" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/iir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/fir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/idft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/dft" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/aes_192.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/aes_top.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/clkgen/clkgen.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/picorv32-master/picorv32.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/ram/ram_wb.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/raminfr.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/round.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/table.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_receiver.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_regs.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_rfifo.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_sync_flops.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_tfifo.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_top.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_transmitter.v" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_wb.v" \
+
+sv xil_defaultlib  --include "../../../../demo_axi_v2.srcs/sources_1/imports/mor1kx/rtl/verilog" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart" --include "../../../../demo_axi_v2.srcs/sources_1/imports/top" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/top" --include "../../../../demo_axi_v2.srcs/sources_1/imports/includes" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/rsa/src" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/idft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/dft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/gps" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/fir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/md5" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/sha256" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/rsa/pem" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/dsp/iir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/des3" --include "../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/iir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/fir" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/idft" --include "../../../../demo_axi_v2.srcs/sources_1/imports/dsp/dft" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/aes/aes_top_axi4lite.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/src/axi_address_resolver.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/src/axi_arbiter.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/src/axi_pkg.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/src/axi_intf.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/src/axi_lite_xbar.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/top/picorv32_top_axi4lite.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/ram/ram_top_axi4lite.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/hdl_cores/uart/uart_top_axi4lite.sv" \
+"../../../../demo_axi_v2.srcs/sources_1/imports/tool_demo/demo_axi.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

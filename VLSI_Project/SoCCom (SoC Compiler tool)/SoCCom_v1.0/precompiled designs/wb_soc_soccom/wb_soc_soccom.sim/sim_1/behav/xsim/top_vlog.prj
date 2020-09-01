@@ -1,0 +1,60 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/rsa/src" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/rsa/pem" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir/FIR_filter.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir/IIR_filter.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/aes_192.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/aes_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/crp.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/des3.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/des3_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir/fir_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir/iir_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/key_sel3.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5/md5_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5/pancham.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5/pancham_round.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/picorv32/picorv32.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/picorv32/picorv32_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/raminfr.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/round.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox1.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox2.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox3.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox4.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox5.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox6.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox7.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox8.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256_k_constants.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256_w_mem.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/table.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_receiver.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_regs.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_rfifo.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_sync_flops.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_tfifo.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_top.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_transmitter.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_wb.v" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/ram/wbram.v" \
+
+sv xil_defaultlib  --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/uart" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/rsa/src" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/rsa/pem" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft" --include "../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/header/wb_soc_functions.sv" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/header/wb_soc_config.sv" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_bus_b3.sv" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_decode.sv" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_interconnect_arb_rr.sv" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_mux.sv" \
+"../../../../wb_soc_soccom.srcs/sources_1/imports/RTL/top/wb_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

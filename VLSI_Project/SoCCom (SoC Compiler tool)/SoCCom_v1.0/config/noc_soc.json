@@ -1,0 +1,109 @@
+{
+	"EP_1": {
+		"neighbors": ["R_1"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": true,
+		"top_module_fname": "picorv32_top.v"
+	},
+	"EP_2": {
+		"neighbors": ["R_1"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "dft_top_top.v"
+	},
+	"EP_3": {
+		"neighbors": ["R_1"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "idft_top_top.v"
+	},
+	"EP_4": {
+		"neighbors": ["R_1"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "fir_top.v"
+	},
+	"R_1": {
+		"neighbors": ["EP_1", "EP_2", "EP_3", "EP_4","R_2"],
+		"fabric": "NoC",
+		"is_Router": true,
+		"is_Master": false,
+		"top_module_fname": "noc_router.sv"
+	},
+	"EP_5": {
+		"neighbors": ["R_2"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "ram_wb_02.v"
+	},
+	"EP_6": {
+		"neighbors": ["R_2"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "ram_wb_01.v"
+	},
+	"R_2": {
+		"neighbors": ["EP_5", "R_1", "EP_6", "R_3"],
+		"fabric": "NoC",
+		"is_Router": true,
+		"is_Master": false,
+		"top_module_fname": "noc_router.sv"
+    },
+	"R_3": {
+		"neighbors": ["R_2", "R_4", "R_5", "EP_7"],
+		"fabric": "NoC",
+		"is_Router": true,
+		"is_Master": false,
+		"top_module_fname": "noc_router.sv"
+	},
+	"EP_7": {
+		"neighbors": ["R_3"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "md5_top.v"
+	},
+	"R_4": {
+		"neighbors": ["R_3", "EP_8", "EP_9"],
+		"fabric": "NoC",
+		"is_Router": true,
+		"is_Master": false,
+		"top_module_fname": "noc_router.sv"
+	},
+	"EP_8": {
+		"neighbors": ["R_4"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "aes_top.v"
+	},
+
+	"EP_9": {
+		"neighbors": ["R_4"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "des3_top.v"
+	},
+
+	"R_5": {
+		"neighbors": ["R_3", "EP_10"],
+		"fabric": "NoC",
+		"is_Router": true,
+		"is_Master": false,
+		"top_module_fname": "noc_router.sv"
+	},
+	"EP_10": {
+		"neighbors": ["R_5"],
+		"fabric": "NoC",
+		"is_Router": false,
+		"is_Master": false,
+		"top_module_fname": "uart_top.v"
+	}
+}

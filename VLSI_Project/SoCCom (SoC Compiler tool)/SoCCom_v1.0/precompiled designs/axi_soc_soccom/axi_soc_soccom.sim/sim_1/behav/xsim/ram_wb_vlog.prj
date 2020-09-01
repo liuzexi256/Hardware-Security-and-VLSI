@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/uart" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/mor1kx/rtl/verilog" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/top" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/includes" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/top" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/rsa/src" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/dsp/idft" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/dsp/dft" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/gps" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/dsp/fir" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/md5" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/sha256" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/rsa/pem" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/dsp/iir" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/des3" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/aes" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/dsp/iir" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/dsp/fir" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/dsp/idft" --include "../../../../Test_m_7.23.2019.srcs/sources_1/imports/dsp/dft" \
+"../../../../Test_m_7.23.2019.srcs/sources_1/imports/hdl_cores/ram/ram_wb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

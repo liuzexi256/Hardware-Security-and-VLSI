@@ -1,0 +1,260 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir/FIR_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR_filter
+INFO: [VRFC 10-311] analyzing module FIR_filter_firBlock_left_MultiplyBlock
+INFO: [VRFC 10-311] analyzing module FIR_filter_firBlock_left
+INFO: [VRFC 10-311] analyzing module FIR_filter_firBlock_right_MultiplyBlock
+INFO: [VRFC 10-311] analyzing module FIR_filter_firBlock_right
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir/IIR_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IIR_filter_firBlock_left_MultiplyBlock
+INFO: [VRFC 10-311] analyzing module IIR_filter_firBlock_left
+INFO: [VRFC 10-311] analyzing module IIR_filter_firBlock_right_MultiplyBlock
+INFO: [VRFC 10-311] analyzing module IIR_filter_firBlock_right
+INFO: [VRFC 10-311] analyzing module IIR_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/aes_192.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_192
+INFO: [VRFC 10-311] analyzing module expand_key_type_A_192
+INFO: [VRFC 10-311] analyzing module expand_key_type_B_192
+INFO: [VRFC 10-311] analyzing module expand_key_type_C_192
+INFO: [VRFC 10-311] analyzing module expand_key_type_D_192
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/aes_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/crp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crp
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/des3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module des3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/des3_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module des3_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dft_top
+INFO: [VRFC 10-311] analyzing module rc82445
+INFO: [VRFC 10-311] analyzing module swNet82443
+INFO: [VRFC 10-311] analyzing module perm82443
+INFO: [VRFC 10-2458] undeclared symbol tm0_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:520]
+INFO: [VRFC 10-2458] undeclared symbol tm0_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:521]
+INFO: [VRFC 10-311] analyzing module memMod
+INFO: [VRFC 10-311] analyzing module memMod_dist
+INFO: [VRFC 10-311] analyzing module shiftRegFIFO
+INFO: [VRFC 10-311] analyzing module nextReg
+INFO: [VRFC 10-311] analyzing module codeBlock82447
+INFO: [VRFC 10-311] analyzing module rc82529
+INFO: [VRFC 10-311] analyzing module swNet82527
+INFO: [VRFC 10-311] analyzing module perm82527
+INFO: [VRFC 10-2458] undeclared symbol tm1_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:1074]
+INFO: [VRFC 10-2458] undeclared symbol tm1_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:1075]
+INFO: [VRFC 10-311] analyzing module DirSum_82710
+INFO: [VRFC 10-311] analyzing module D18_82700
+INFO: [VRFC 10-311] analyzing module D20_82708
+INFO: [VRFC 10-311] analyzing module codeBlock82532
+INFO: [VRFC 10-311] analyzing module codeBlock82713
+INFO: [VRFC 10-311] analyzing module rc82795
+INFO: [VRFC 10-311] analyzing module swNet82793
+INFO: [VRFC 10-311] analyzing module perm82793
+INFO: [VRFC 10-2458] undeclared symbol tm6_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:1646]
+INFO: [VRFC 10-2458] undeclared symbol tm6_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:1647]
+INFO: [VRFC 10-311] analyzing module DirSum_82984
+INFO: [VRFC 10-311] analyzing module D14_82970
+INFO: [VRFC 10-311] analyzing module D16_82982
+INFO: [VRFC 10-311] analyzing module codeBlock82798
+INFO: [VRFC 10-311] analyzing module codeBlock82987
+INFO: [VRFC 10-311] analyzing module rc83069
+INFO: [VRFC 10-311] analyzing module swNet83067
+INFO: [VRFC 10-311] analyzing module perm83067
+INFO: [VRFC 10-2458] undeclared symbol tm11_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:2234]
+INFO: [VRFC 10-2458] undeclared symbol tm11_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:2235]
+INFO: [VRFC 10-311] analyzing module DirSum_83274
+INFO: [VRFC 10-311] analyzing module D10_83252
+INFO: [VRFC 10-311] analyzing module D12_83272
+INFO: [VRFC 10-311] analyzing module codeBlock83072
+INFO: [VRFC 10-311] analyzing module codeBlock83277
+INFO: [VRFC 10-311] analyzing module rc83359
+INFO: [VRFC 10-311] analyzing module swNet83357
+INFO: [VRFC 10-311] analyzing module perm83357
+INFO: [VRFC 10-2458] undeclared symbol tm16_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:2854]
+INFO: [VRFC 10-2458] undeclared symbol tm16_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:2855]
+INFO: [VRFC 10-311] analyzing module DirSum_83596
+INFO: [VRFC 10-311] analyzing module D6_83558
+INFO: [VRFC 10-311] analyzing module D8_83594
+INFO: [VRFC 10-311] analyzing module codeBlock83362
+INFO: [VRFC 10-311] analyzing module codeBlock83599
+INFO: [VRFC 10-311] analyzing module rc83681
+INFO: [VRFC 10-311] analyzing module swNet83679
+INFO: [VRFC 10-311] analyzing module perm83679
+INFO: [VRFC 10-2458] undeclared symbol tm21_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:3538]
+INFO: [VRFC 10-2458] undeclared symbol tm21_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:3539]
+INFO: [VRFC 10-311] analyzing module DirSum_83981
+INFO: [VRFC 10-311] analyzing module D2_83911
+INFO: [VRFC 10-311] analyzing module D4_83979
+INFO: [VRFC 10-311] analyzing module codeBlock83683
+INFO: [VRFC 10-311] analyzing module codeBlock83984
+INFO: [VRFC 10-311] analyzing module rc84066
+INFO: [VRFC 10-311] analyzing module swNet84064
+INFO: [VRFC 10-311] analyzing module perm84064
+INFO: [VRFC 10-2458] undeclared symbol tm26_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:4318]
+INFO: [VRFC 10-2458] undeclared symbol tm26_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top.v:4319]
+INFO: [VRFC 10-311] analyzing module multfix
+INFO: [VRFC 10-311] analyzing module addfxp
+INFO: [VRFC 10-311] analyzing module subfxp
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft/dft_top_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dft_top_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir/fir_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idft_top
+INFO: [VRFC 10-311] analyzing module rc7079
+INFO: [VRFC 10-311] analyzing module swNet7077
+INFO: [VRFC 10-311] analyzing module perm7077
+INFO: [VRFC 10-2458] undeclared symbol tm0_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:520]
+INFO: [VRFC 10-2458] undeclared symbol tm0_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:521]
+INFO: [VRFC 10-311] analyzing module memMod
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'memMod' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:774]
+INFO: [VRFC 10-311] analyzing module memMod_dist
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'memMod_dist' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:798]
+INFO: [VRFC 10-311] analyzing module shiftRegFIFO
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'shiftRegFIFO' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:820]
+INFO: [VRFC 10-311] analyzing module nextReg
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'nextReg' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:840]
+INFO: [VRFC 10-311] analyzing module codeBlock7081
+INFO: [VRFC 10-311] analyzing module rc7163
+INFO: [VRFC 10-311] analyzing module swNet7161
+INFO: [VRFC 10-311] analyzing module perm7161
+INFO: [VRFC 10-2458] undeclared symbol tm1_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:1074]
+INFO: [VRFC 10-2458] undeclared symbol tm1_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:1075]
+INFO: [VRFC 10-311] analyzing module DirSum_7344
+INFO: [VRFC 10-311] analyzing module D18_7334
+INFO: [VRFC 10-311] analyzing module D20_7342
+INFO: [VRFC 10-311] analyzing module codeBlock7166
+INFO: [VRFC 10-311] analyzing module codeBlock7347
+INFO: [VRFC 10-311] analyzing module rc7429
+INFO: [VRFC 10-311] analyzing module swNet7427
+INFO: [VRFC 10-311] analyzing module perm7427
+INFO: [VRFC 10-2458] undeclared symbol tm6_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:1646]
+INFO: [VRFC 10-2458] undeclared symbol tm6_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:1647]
+INFO: [VRFC 10-311] analyzing module DirSum_7618
+INFO: [VRFC 10-311] analyzing module D14_7604
+INFO: [VRFC 10-311] analyzing module D16_7616
+INFO: [VRFC 10-311] analyzing module codeBlock7432
+INFO: [VRFC 10-311] analyzing module codeBlock7621
+INFO: [VRFC 10-311] analyzing module rc7703
+INFO: [VRFC 10-311] analyzing module swNet7701
+INFO: [VRFC 10-311] analyzing module perm7701
+INFO: [VRFC 10-2458] undeclared symbol tm11_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:2234]
+INFO: [VRFC 10-2458] undeclared symbol tm11_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:2235]
+INFO: [VRFC 10-311] analyzing module DirSum_7908
+INFO: [VRFC 10-311] analyzing module D10_7886
+INFO: [VRFC 10-311] analyzing module D12_7906
+INFO: [VRFC 10-311] analyzing module codeBlock7706
+INFO: [VRFC 10-311] analyzing module codeBlock7911
+INFO: [VRFC 10-311] analyzing module rc7993
+INFO: [VRFC 10-311] analyzing module swNet7991
+INFO: [VRFC 10-311] analyzing module perm7991
+INFO: [VRFC 10-2458] undeclared symbol tm16_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:2854]
+INFO: [VRFC 10-2458] undeclared symbol tm16_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:2855]
+INFO: [VRFC 10-311] analyzing module DirSum_8230
+INFO: [VRFC 10-311] analyzing module D6_8192
+INFO: [VRFC 10-311] analyzing module D8_8228
+INFO: [VRFC 10-311] analyzing module codeBlock7996
+INFO: [VRFC 10-311] analyzing module codeBlock8233
+INFO: [VRFC 10-311] analyzing module rc8315
+INFO: [VRFC 10-311] analyzing module swNet8313
+INFO: [VRFC 10-311] analyzing module perm8313
+INFO: [VRFC 10-2458] undeclared symbol tm21_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:3538]
+INFO: [VRFC 10-2458] undeclared symbol tm21_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:3539]
+INFO: [VRFC 10-311] analyzing module DirSum_8615
+INFO: [VRFC 10-311] analyzing module D2_8545
+INFO: [VRFC 10-311] analyzing module D4_8613
+INFO: [VRFC 10-311] analyzing module codeBlock8317
+INFO: [VRFC 10-311] analyzing module codeBlock8618
+INFO: [VRFC 10-311] analyzing module rc8700
+INFO: [VRFC 10-311] analyzing module swNet8698
+INFO: [VRFC 10-311] analyzing module perm8698
+INFO: [VRFC 10-2458] undeclared symbol tm26_d, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:4318]
+INFO: [VRFC 10-2458] undeclared symbol tm26_dd, assumed default net type wire [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:4319]
+INFO: [VRFC 10-311] analyzing module multfix
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'multfix' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:4571]
+INFO: [VRFC 10-311] analyzing module addfxp
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'addfxp' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:4597]
+INFO: [VRFC 10-311] analyzing module subfxp
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'subfxp' [E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top.v:4619]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft/idft_top_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idft_top_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir/iir_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iir_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/key_sel3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_sel3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5/md5_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module md5_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5/pancham.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5/pancham_round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/picorv32/picorv32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picorv32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/picorv32/picorv32_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module picorv32_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/raminfr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module raminfr
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_round
+INFO: [VRFC 10-311] analyzing module final_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox5
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox7
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3/sbox8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sbox8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256_k_constants.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256_k_constants
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256/sha256_w_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256_w_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/table.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module table_lookup
+INFO: [VRFC 10-311] analyzing module S4
+INFO: [VRFC 10-311] analyzing module T
+INFO: [VRFC 10-311] analyzing module S
+INFO: [VRFC 10-311] analyzing module xS
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_rfifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rfifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_sync_flops.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_sync_flops
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_tfifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tfifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_transmitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_transmitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/uart/uart_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/ram/wbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wbram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/header/wb_soc_functions.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/header/wb_soc_config.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_bus_b3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_bus_b3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_decode.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_decode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_interconnect_arb_rr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_interconnect_arb_rr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/wb_bus_b3/wb_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/wb_soc_soccom/wb_soc_soccom.srcs/sources_1/imports/RTL/top/wb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/wb_soc_soccom/wb_soc_soccom.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

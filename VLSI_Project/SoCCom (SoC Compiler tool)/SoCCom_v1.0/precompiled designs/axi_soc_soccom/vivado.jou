@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 19 00:24:27 2020
+# Process ID: 47776
+# Current directory: C:/Users/atul/Downloads/SoCCom_v1.0 with code base/SoCCom_v1.0/precompiled designs/axi_soc_soccom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent42072 C:\Users\atul\Downloads\SoCCom_v1.0 with code base\SoCCom_v1.0\precompiled designs\axi_soc_soccom\axi_soc_soccom.xpr
+# Log file: C:/Users/atul/Downloads/SoCCom_v1.0 with code base/SoCCom_v1.0/precompiled designs/axi_soc_soccom/vivado.log
+# Journal file: C:/Users/atul/Downloads/SoCCom_v1.0 with code base/SoCCom_v1.0/precompiled designs/axi_soc_soccom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/atul/Downloads/SoCCom_v1.0 with code base/SoCCom_v1.0/precompiled designs/axi_soc_soccom/axi_soc_soccom.xpr}
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1

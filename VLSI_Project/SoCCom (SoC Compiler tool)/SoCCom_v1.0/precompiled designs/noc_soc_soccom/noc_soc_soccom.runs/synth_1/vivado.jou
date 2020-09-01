@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 19 04:15:04 2020
+# Process ID: 28744
+# Current directory: D:/OneDrive/OneDrive - University of Florida/SoC Compiler Tool/SoCCom_v1.0/precompiled designs/noc_soc_soccom/noc_soc_soccom.runs/synth_1
+# Command line: vivado.exe -log tb_system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_system.tcl
+# Log file: D:/OneDrive/OneDrive - University of Florida/SoC Compiler Tool/SoCCom_v1.0/precompiled designs/noc_soc_soccom/noc_soc_soccom.runs/synth_1/tb_system.vds
+# Journal file: D:/OneDrive/OneDrive - University of Florida/SoC Compiler Tool/SoCCom_v1.0/precompiled designs/noc_soc_soccom/noc_soc_soccom.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tb_system.tcl -notrace

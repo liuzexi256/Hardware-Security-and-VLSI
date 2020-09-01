@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/router" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/uart" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/debug" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/network_adapter" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/header" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/dsp/idft" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/sha256" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/dsp/iir" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/rsa/src" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/dsp/fir" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/dsp/dft" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/des3" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/md5" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/rsa/pem" --include "../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes" \
+"../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/round.v" \
+"../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/table.v" \
+"../../../../noc_soc_soccom.srcs/sources_1/imports/RTL/crypto/aes/aes_128.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

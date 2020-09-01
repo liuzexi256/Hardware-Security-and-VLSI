@@ -1,0 +1,69 @@
+//This is a specification file for users to define the input parameters of Wishbone wrapper generation tool
+//Users define the lower cases and numbers, DO NOT modify any variables or text indicated by capital letters
+
+//-----------------------------------I/O SPECIFICATION---------------------------------------------------------
+//IO signals' format is "SIGNAL_TYPE bit_width signal_name", if this signal does not exist, set the bit width to be 0
+
+CORE_NAME aes_128
+
+//Input signals
+
+CLK 1 clk
+RESET 1 rst
+START 1 start
+DECRYPT 0
+NEXT_MESSAGE 0
+KEY_1 128 key
+KEY_2 0
+KEY_3 0
+DATA_IN 128 state
+
+//Output signals
+
+READY_FOR_INPUT 0
+READY_FOR_RESULTS 1 out_valid
+DATA_OUT 128 out
+
+//-----------------------------------ADDRESS CONTROL---------------------------------------------------------
+//Currently, only support address variations in wb_adr_i[6:2] (from 0 to 31)
+//"0" represents this control does not exist, be sure to use "5'd0" to indicate the first case you want!
+
+//Write side
+
+WADDR_START 5'd0 TO 5'd0
+WADDR_DATA 5'd1 TO 5'd4
+WADDR_KEY 5'd5 TO 5'd8
+WADDR_DECRYPT 0
+
+//Read side
+
+RADDR_READY 0
+RADDR_KEY 5'd5 TO 5'd8
+RADDR_DATA 5'd1 TO 5'd4
+RADDR_VALID 5'd9 TO 5'd9
+RADDR_RESULT 5'd10 TO 5'd13
+
+//--------------------------------------EXTRA FUNCTIONS---------------------------------------------------------------
+//Specify additional control by defining the address and the RTL codes
+
+//Format is "CONTROL_TYPE bit_width control_name number TO number {codes}"
+//Write side
+
+WADDR_USER_1 0
+WADDR_USER_2 0
+
+//Read side
+
+RADDR_USER_1 0
+RADDR_USER_2 0
+
+//Define any special connections need to be modied in the instantiation, set IS_MODIFY to 1 if you want
+//Format is "IS_MODIFY 1 your_signal your_code"
+
+IS_MODIFY 0
+
+//Any other large RTL functions need to be added, provide the codes and which line is starting to add
+LINE 0
+CONTENTS BEGIN 
+
+END
